@@ -124,7 +124,7 @@ class TarifFragment : Fragment() {
                 //izin verilmemişse buraya giriyor prog
                 if (ActivityCompat.shouldShowRequestPermissionRationale(requireActivity(),Manifest.permission.READ_MEDIA_IMAGES)){
                     //snacbar seçmemiz lazm kullanıcdan neden izin isteyeceğimizi söylememiz lazım
-                    Snackbar.make(view,"Galeriye ulaşmamız lazım!!!",Snackbar.LENGTH_INDEFINITE).setAction("İzin Ver",{
+                    Snackbar.make(view,"Galeriye ulaşmamız lazım!!",Snackbar.LENGTH_INDEFINITE).setAction("İzin Ver",{
                         //izin isteyeceğiz
                         permissionLauncher.launch(Manifest.permission.READ_MEDIA_IMAGES)
 
