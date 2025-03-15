@@ -1,0 +1,22 @@
+# Android Studio ve IntelliJ IDEA dosyaları
+.idea/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+*.iml
+
+# Gradle dosyaları
+.gradle/
+build/
+
+# Diğer geçici dosyalar
+.DS_Store
+/captures/
+/.externalNativeBuild/
+/.cxx/
+
+# Local dosyalar
+local.properties
